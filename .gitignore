@@ -1,0 +1,22 @@
+# Local runtime data
+/data/*
+!/data/.gitkeep
+
+# JavaScript
+node_modules/
+dist/
+.vite/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.superpowers/
+.pnpm-store/
